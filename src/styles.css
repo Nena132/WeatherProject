@@ -1,0 +1,53 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.weekday {
+  list-style: none;
+  text-align: center;
+}
+.underday {
+  list-style: none;
+}
+.container {
+  text-align: center;
+}
+.todayinfo {
+  list-style: none;
+}
+.Londoninfo {
+  list-style: none;
+  text-align: left;
+}
+.weather-app {
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 650px;
+  background: radial-gradient(
+    circle at -2.2% -3.8%,
+    rgba(255, 227, 2, 0.41) 0%,
+    rgb(59, 188, 241) 100.2%
+  );
+}
+
+h1 {
+  padding-left: 15px;
+}
+.upperpart {
+  padding-top: 25px;
+  padding-left: 60px;
+}
+.todaytemperature {
+  text-align: left;
+  padding-left: 100px;
+}
+.city {
+  border-radius: 10px;
+  border-color: #16ccb3;
+}
+.searchbtn {
+  border-radius: 10px;
+  border-color: #16ccb3;
+}
