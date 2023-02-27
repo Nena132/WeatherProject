@@ -60,14 +60,7 @@ searchForm.addEventListener("submit", handleSubmit);
 function showTemp(response) {
   console.log(response);
 }
-function displayFahrenheitTemperature(event) {
-  event.preventDefault();
-  alert("Link clicked");
-}
 
 let currentLocationBtn = document.querySelector("#current-location-btn");
 currentLocationBtn.addEventListener("click", getCurrentLocation);
 searchCity("London");
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
