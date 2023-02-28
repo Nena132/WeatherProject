@@ -58,3 +58,10 @@ h1 {
 .h1 {
   font-weight: 300;
 }
+.active {
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
