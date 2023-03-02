@@ -65,3 +65,14 @@ h1 {
 .active:hover {
   text-decoration: none;
 }
+.city-header {
+  display: flex;
+  align-items: center;
+}
+
+.city-header h1 {
+  margin-right: 10px;
+}
+.col-8-custom {
+  margin-top: 25px;
+}
